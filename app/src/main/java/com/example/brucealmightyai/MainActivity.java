@@ -11,8 +11,6 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.example.brucealmightyai.R;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -114,6 +112,7 @@ public class MainActivity extends AppCompatActivity {
                 if(response.isSuccessful()){
                     JSONObject  jsonObject = null;
                     try {
+                        assert response.body() != null;
                         jsonObject = new JSONObject(response.body().string());
                         JSONArray jsonArray = jsonObject.getJSONArray("choices");
                         String result = jsonArray.getJSONObject(0).getString("text");
@@ -124,6 +123,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 }else{
+                    assert response.body() != null;
                     addResponse("Failed to load response due to "+response.body().toString());
                 }
             }
