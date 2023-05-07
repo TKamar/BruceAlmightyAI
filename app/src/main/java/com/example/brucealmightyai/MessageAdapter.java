@@ -1,4 +1,4 @@
-package com.example.easychatgpt;
+package com.example.brucealmightyai;
 
 import android.view.LayoutInflater;
 import android.view.View;

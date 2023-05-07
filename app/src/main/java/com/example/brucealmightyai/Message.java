@@ -1,4 +1,4 @@
-package com.example.easychatgpt;
+package com.example.brucealmightyai;
 
 public class Message {
     public static String SENT_BY_ME = "me";

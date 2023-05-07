@@ -1,4 +1,4 @@
-package com.example.easychatgpt;
+package com.example.brucealmightyai;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
+
+import com.example.brucealmightyai.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

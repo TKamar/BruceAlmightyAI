@@ -1,4 +1,4 @@
-package com.example.easychatgpt;
+package com.example.brucealmightyai;
 
 import org.junit.Test;
 
