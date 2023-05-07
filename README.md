@@ -1,6 +1,6 @@
 # Bruce Almighty AI
 This repository contains the source code for a chat application that uses the OpenAI API and OkHttp for API integration. The app allows users to chat with an AI model that uses OpenAI's GPT-3 language model to generate responses.
-![brucealmightyai](https://user-images.githubusercontent.com/62396187/236669521-367111a8-def7-4453-b81f-6dcd4c895fee.jpg = 250x250)
+![brucealmightyai](https://user-images.githubusercontent.com/62396187/236669521-367111a8-def7-4453-b81f-6dcd4c895fee.jpg | width=200)
 
 ## Description
 
